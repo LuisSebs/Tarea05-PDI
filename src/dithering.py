@@ -475,12 +475,12 @@ if __name__ == '__main__':
 
     info_algoritmos = """
         
-    --sp: Semitonos con puntos
-    --sm: Semitonos con matrices
-    --do: Dithering ordenado
-    --dd: Dithering disperso
-    --da: Dithering al azar
-    --fs: Dithering de Floyd Steinberg
+    sp: Semitonos con puntos
+    sm: Semitonos con matrices
+    do: Dithering ordenado
+    dd: Dithering disperso
+    da: Dithering al azar
+    fs: Dithering de Floyd Steinberg
 
     """
 
@@ -503,17 +503,17 @@ if __name__ == '__main__':
     # Dithering a aplicar
     algoritmo = args.algoritmo
     resultado = None
-    if algoritmo == "--sp":
+    if algoritmo == "sp":
         resultado = semitonos_puntos(imagen)        
-    elif algoritmo == "--sm":
+    elif algoritmo == "sm":
         resultado = semitonos_matrices(imagen)
-    elif algoritmo == "--do":
+    elif algoritmo == "do":
         resultado = dithering_ordenado(imagen)
-    elif algoritmo == "--dd":
+    elif algoritmo == "dd":
         resultado = dithering_disperso(imagen)
-    elif algoritmo == "--da":
+    elif algoritmo == "da":
         resultado = dithering_azar(imagen)
-    elif algoritmo == "--fs":
+    elif algoritmo == "fs":
         resultado = floyd_steinberg(imagen)
     else:
         print(rojo+f"Algoritmo no conocido: {args.algoritmo}"+reset)

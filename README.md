@@ -32,32 +32,32 @@ Para probar los algoritmos implementados en este programa ejecuta los siguientes
 
 ## Dithering semitonos con puntos
 ```bash
-python3 dithering.py --sp ./imgs/luke-braswell.jpg ./luke-braswell-puntos.png
+python3 dithering.py sp ./imgs/luke-braswell.jpg ./luke-braswell-puntos.png
 ```
 
 ## Dithering semitonos con matrices
 ```bash
-python3 dithering.py --sm ./imgs/luke-braswell.jpg ./luke-braswell-matrices.png
+python3 dithering.py sm ./imgs/luke-braswell.jpg ./luke-braswell-matrices.png
 ```
 
 ## Dithering ordenado
 ```bash
-python3 dithering.py --do ./imgs/luke-braswell.jpg ./luke-braswell-ordenado.png
+python3 dithering.py do ./imgs/luke-braswell.jpg ./luke-braswell-ordenado.png
 ```
 
 ## Dithering disperso
 ```bash
-python3 dithering.py --dd ./imgs/luke-braswell.jpg ./luke-braswell-disperso.png
+python3 dithering.py dd ./imgs/luke-braswell.jpg ./luke-braswell-disperso.png
 ```
 
 ## Dithering al azar
 ```bash
-python3 dithering.py --da ./imgs/luke-braswell.jpg ./luke-braswell-azar.png
+python3 dithering.py da ./imgs/luke-braswell.jpg ./luke-braswell-azar.png
 ```
 
 ## Dithering de Floyd Steinberg
 ```bash
-python3 dithering.py --fs ./imgs/luke-braswell.jpg ./luke-braswell-floyd-steinberg.png
+python3 dithering.py fs ./imgs/luke-braswell.jpg ./luke-braswell-floyd-steinberg.png
 ```
 
 # Referencias
